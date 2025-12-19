@@ -27,12 +27,12 @@
 输出文件：
 - 每个note_id会生成：1_[标题]_[note_id].json 和 1_[标题]_[note_id].csv
 - 所有数据汇总：All CommentData.json 和 All CommentData.csv
-
+抓取到评论的数据包含：评论内容、评论点赞数、评论者ip所在地、昵称、笔记id、上级评论者id、是否属于子评论 / content	like_count	ip_location	nickname	note_id	comment_id	parent_comment_id	is_sub_comment
+![数据结果](https://github.com/LiuHuiDong-GitHub/CrabCommentsXiaohongshu/blob/eeaaa820a0a2320d1d2eb9aa48d32dfa63968fff/DataImage_20251219171205_219_29.png)
 注意：
 - 首次运行需要登录，登录信息会保存，下次运行无需重新登录
 - 脚本会持续运行，监听评论数据，直到用户手动停止
 - 需要确保Excel文件格式正确（第一行为标题，从第二行开始是URL）
-
 另外，你可以基于我的代码和思路，定制开发自己所需要的功能.
 
 -----------------------------------------------
